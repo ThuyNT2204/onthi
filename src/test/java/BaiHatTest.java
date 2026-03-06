@@ -47,7 +47,7 @@ public class BaiHatTest {
     }
     @Test
     public void testAddBaiHatMinTru1(){
-        BaiHat bh=new BaiHat("BH6","MOTCONVIT","THUY",5.49f,"NHACTRE");
+        BaiHat bh=new BaiHat("BH6","MOTCONVIT","THUY",1.9f,"NHACTRE");
         Assertions.assertThrows(IllegalArgumentException.class,
                 ()->service.addBaiHat(bh));
     }
